@@ -7,7 +7,7 @@
 
 import Foundation
 
-public enum Closure {
+public enum Closure: Sendable {
     public typealias Void = (() -> Swift.Void)
     public typealias Boolean = ((Swift.Bool) -> Swift.Void)
     public typealias Int = ((Swift.Int) -> Swift.Void)
